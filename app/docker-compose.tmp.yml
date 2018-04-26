@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: 174336093897.dkr.ecr.us-east-1.amazonaws.com/myapp
+    ports:
+     - "8000:80"
+    environment:
+      TOKEN: e594e16a-9781-11e7-a8d3-d7c58a01d7b1
